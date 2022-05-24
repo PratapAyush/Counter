@@ -43,16 +43,25 @@ const [count, setCount] = React.useState(initialValue);
         // </div>
 
         //2nd way
+        <div classname="main">
+            <div>
 
-        <div>
-        <h1>Counter App: {count}</h1>
+                
+                    <div>
+                    {/* <h1>  {count}</h1> */}
+                    {count%2!==0 ? <h1 style={{color:"red"}} >COUNT APP: = {count}</h1>
+                    : <h1 style={{color:"green"}} >COUNT APP: = {count}</h1> }
+                     </div>
+                
+
+            </div>
+
+        <div className="buttons">
+        
         <button onClick={() =>setCount(count+1)}>Increment</button>
         <button onClick={() =>setCount(count-1)}>Decrement</button>
         <button onClick={() =>setCount(count*2)}>Double</button>
-        
-
-
-
+        </div>
     </div>
 
     );
