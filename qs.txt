@@ -1,0 +1,21 @@
+- Algorithm?
+A: set of instruction, excueted step by step
+- what is react?
+A: a Js library used to build UI.Its simple,declarative,componenet-based and re-usable
+- what is JSX?
+A:HTML?XML code inside JS code 
+- what is Component?
+A:
+a js function that returns HTML?XML code
+
+- What is Virtual DOM?
+A: Shallow copy of our actual DOM
+
+compare and update what need to be needed
+
+//original
+<div> Hello </div>
+
+//change
+<div>
+state is information about compinent that you want virtaual dom to be aware of
